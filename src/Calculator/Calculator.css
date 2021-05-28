@@ -33,6 +33,10 @@
   font-size: 1em;
 } 
 
+#submitButton:hover {
+  background-color: rgb(219, 219, 219);
+}
+
 .calcTable {
   width: 100%;
   height:100%;

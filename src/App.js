@@ -14,6 +14,7 @@ function App() {
     generateQuestions();
   }, [])
 
+  // Generates a random list of 10 questions
   const generateQuestions = () => {
     let questionsArr = [];
     for(let i = 0; i < 10; i ++){

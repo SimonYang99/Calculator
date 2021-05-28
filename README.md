@@ -1,4 +1,5 @@
 ### Installing Dependencies
+  npm install -g yarn
   Yarn install
 
 ### Running The Assessment

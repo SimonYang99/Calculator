@@ -8,6 +8,7 @@ const Equation = ({
 }) => {
   const select = index === position ? 'selected ' : '';
 
+  // Sets the class of the equation depending on answer
   const determineAnswer = () => {
     let className = ""
     if(answer !== "?"){

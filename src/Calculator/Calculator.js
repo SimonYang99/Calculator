@@ -4,6 +4,7 @@ import './Calculator.css';
 const Calculator = ({inputAnswer}) => {
   const [calcView, setCalcView] = useState("");
 
+  // Submits answer unless calcView is not a number or empty
   const submitAns = () => {
     if(isNaN(calcView) === true || calcView.length === 0){
       setCalcView("ERROR");
@@ -14,6 +15,7 @@ const Calculator = ({inputAnswer}) => {
     }
   }
 
+  // Attempts to evaluate the displayed equation returns error if something goes wrong
   const evaluateEquation = () => {
     try{
       setCalcView(eval(calcView));
@@ -44,7 +46,6 @@ const Calculator = ({inputAnswer}) => {
                       e.preventDefault(); 
                       evaluateEquation();
                     }
-
                   }}
                   data-testid="calcView"
                   
