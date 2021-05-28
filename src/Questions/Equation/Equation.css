@@ -1,0 +1,21 @@
+.selected {
+  background-color: rgb(200, 238, 255);
+}
+
+.equation {
+  height: 1em;
+  padding: 1em;
+  font-size: large;
+  text-align: center;
+  margin: 0.5em;
+  border-radius: 15px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.correct {
+  background-color: rgb(113, 214, 121);
+}
+
+.incorrect {
+  background-color: rgb(228, 108, 108);
+}

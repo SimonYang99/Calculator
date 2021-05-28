@@ -1,0 +1,27 @@
+#skipButton {
+  color: white;
+  background-color: rgb(0, 92, 179);
+}
+
+#skipButton:hover {
+  background-color: rgb(0, 62, 119);
+}
+
+#newQuestionsButton:hover {
+  background-color: #c5c5c5;
+}
+
+.buttonBar {
+  height: 1em;
+  text-align: center;
+}
+
+.buttonBarButton {
+  font-size: large;
+  width:45%;
+  padding:1em;
+  margin: 0.5em;
+  outline:none;
+  border:none;
+  border-radius: 15px;
+}
